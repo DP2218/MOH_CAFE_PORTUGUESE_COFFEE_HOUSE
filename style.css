@@ -753,6 +753,8 @@ color:var(--secondary) !important;
 
 }
 
+@media(min-width:993px){
+
 header.sticky .nav-links a{
 
 color:#fff !important;
@@ -768,6 +770,8 @@ background:var(--secondary) !important;
 header.sticky .nav-links a:hover{
 
 color:var(--secondary) !important;
+
+}
 
 }
 
