@@ -3121,6 +3121,18 @@ Responsive Footer & Final CSS) */
     transition:.3s;
 }
 
+.reservation-form input[type="date"]{
+    text-align:left;
+    -webkit-appearance:none;
+    appearance:none;
+}
+
+.reservation-form input[type="date"]::-webkit-date-and-time-value{
+    text-align:left;
+    font-size:15px;
+    font-weight:400;
+}
+
 .reservation-form input:focus,
 .reservation-form textarea:focus,
 .reservation-form select:focus{
