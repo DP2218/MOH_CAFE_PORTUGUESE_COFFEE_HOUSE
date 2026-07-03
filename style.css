@@ -909,11 +909,21 @@ box-shadow:none !important;
 
 #menu-btn{
 
-display:block;
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+width:42px;
+
+height:42px;
 
 z-index:1001;
 
 color:var(--primary);
+
+transition:all .3s ease;
 
 }
 
@@ -929,9 +939,30 @@ color:#fff !important;
 
 }
 
+body.nav-open #menu-btn{
+
+color:var(--primary) !important;
+
+background:var(--accent);
+
+border-radius:50%;
+
+box-shadow:0 4px 14px rgba(0,0,0,.2);
+
+}
+
+body.dark.nav-open #menu-btn{
+
+color:var(--primary) !important;
+
+background:var(--secondary);
+
+}
+
 #menu-btn:hover {
 
 color:var(--secondary);
+
 
 }
 
