@@ -3164,6 +3164,15 @@ Responsive Footer & Final CSS) */
     font-family:Poppins,sans-serif;
     outline:none;
     transition:.3s;
+    box-sizing:border-box;
+}
+
+.reservation-form input[type="date"]{
+    height:51px;
+    padding:0 18px;
+    line-height:51px;
+    -webkit-appearance:none;
+    appearance:none;
 }
 
 .reservation-form input:focus,
@@ -4095,6 +4104,46 @@ padding:14px;
 .reservation-form{
 
 padding:28px 20px;
+
+}
+
+.reservation-form input,
+.reservation-form textarea,
+.reservation-form select{
+
+font-size:16px;
+
+}
+
+.reservation-form input[type="date"]{
+
+height:51px !important;
+
+min-height:51px !important;
+
+max-height:51px !important;
+
+padding:0 18px !important;
+
+line-height:normal !important;
+
+display:flex;
+
+align-items:center;
+
+box-sizing:border-box !important;
+
+-webkit-appearance:none;
+
+appearance:none;
+
+color-scheme:light;
+
+}
+
+body.dark .reservation-form input[type="date"]{
+
+color-scheme:dark;
 
 }
 
