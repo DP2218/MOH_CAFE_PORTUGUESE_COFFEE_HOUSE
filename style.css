@@ -917,15 +917,13 @@ color:var(--primary);
 
 }
 
-header.sticky #menu-btn,
-header #menu-btn{
+header.sticky #menu-btn{
 
-color:var(--primary) !important;
+color:#fff !important;
 
 }
 
-body.dark #menu-btn,
-body.dark header.sticky #menu-btn{
+body.dark #menu-btn{
 
 color:#fff !important;
 
