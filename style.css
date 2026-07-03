@@ -799,9 +799,13 @@ color:#fff !important;
 
 }
 
+@media(min-width:993px){
+
 header.sticky #menu-btn{
 
 color:#fff !important;
+
+}
 
 }
 
@@ -913,9 +917,17 @@ color:var(--primary);
 
 }
 
-body.dark #menu-btn {
+header.sticky #menu-btn,
+header #menu-btn{
 
-color:#fff;
+color:var(--primary) !important;
+
+}
+
+body.dark #menu-btn,
+body.dark header.sticky #menu-btn{
+
+color:#fff !important;
 
 }
 
